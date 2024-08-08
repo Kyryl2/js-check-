@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./file.js"></script>
+    <script>
+        (function showMessage() {
+            alert('Hello from inline script!');
+        })()
+    </script>
 </head>
 
 <body>
+    <button onclick="alert('Hello, world!')">Click me</button>
 
 </body>
 
